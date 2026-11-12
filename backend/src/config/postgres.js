@@ -21,5 +21,3 @@ async function init() {
 }
 
 module.exports = { pool, init };
-
-ssl: process.env.PG_SSL === "true" ? { rejectUnauthorized: false } : false,
